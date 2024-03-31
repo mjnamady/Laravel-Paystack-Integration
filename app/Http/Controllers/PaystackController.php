@@ -51,7 +51,7 @@ class PaystackController extends Controller
 
             return redirect()->route('success');
         } else {
-            return redirect()->route('success');
+            return redirect()->route('cancel');
         }
   
         // if ($err) {
